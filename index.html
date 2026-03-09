@@ -12,6 +12,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://static.latta.ai/recorder/latta.js"></script>
+  <script>
+    Latta.init({
+        apiKey: '963b76779c46639804b7dfe29880d43121089762c8ad6367c62cf14b6a5b83d9721bbb3534427daba1c3d2330d0c29e67d18d1f3f2bbbff558c381a40960e682', 
+        pageType: 'classic'
+    });
+  </script>
 </head>
 
 <body>
@@ -37,7 +44,7 @@
         <input type="button" value="1" onclick="liveScreen(1)" />
         <input type="button" value="2" onclick="liveScreen(2)" />
         <input type="button" value="3" onclick="liveScreen(3)" />
-        <input type="button" value="+" onclick="liveScreen('+')" />
+        <input type="button" value="+" onclick="liveScreen('-')" />
       </div>
       <div class="third-row">
         <input type="button" value="4" onclick=" liveScreen(4)" />
